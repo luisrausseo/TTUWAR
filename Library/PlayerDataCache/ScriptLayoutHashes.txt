@@ -3,6 +3,7 @@ PlayerPath?
 C:/Users/luisr/Desktop/Unity/TTUWAR/TTUWAR.apk
 SceneListBegin?
 Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
+Assets/ARWorld.unity
 SceneListEnd?
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 6e67f8cda17a252e368e2ce66316c606 Assembly-CSharp.dll:.PlaceMapOnARPlane
@@ -108,6 +109,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 26e77f5bf3c4cef8d84a98c885bc6ada Assembly-CSharp.dll:.ScriptablePalette
 ff21ee75bd4f1bf559d9a8614e4e41da Assembly-CSharp.dll:Mapbox.Unity.Map.TileErrorHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraTouchRotation
 ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:Mapbox.Unity.Map.InitializeMapWithLocationProvider
 e81238197aa643d93e3d903c06302a67 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ColliderModifier
 00c6524565e02b69a42dbf29b719677d Assembly-CSharp.dll:Mapbox.Examples.SpawnOnMap
@@ -475,4 +477,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraTouchRotation
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuforiaCameraIssueFix
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLoader

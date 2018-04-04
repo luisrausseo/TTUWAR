@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
     guid: 49f1ae7ff8c69466a9fd31117cca0599
+  - enabled: 1
+    path: Assets/ARWorld.unity
+    guid: de66a42cead710547aa54bc1487943b8

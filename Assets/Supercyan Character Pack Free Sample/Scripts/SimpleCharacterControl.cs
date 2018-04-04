@@ -175,6 +175,7 @@ public class SimpleCharacterControl : MonoBehaviour {
         {
             m_animator.SetFloat("MoveSpeed", 0f);
         }
+        new WaitForSeconds(1f);
         lonA = Input.location.lastData.longitude;
         latA = Input.location.lastData.latitude;
         
