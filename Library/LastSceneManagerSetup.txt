@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
   isLoaded: 1
-  isActive: 0
-- path: Assets/ARWorld.unity
-  isLoaded: 1
   isActive: 1
+- path: Assets/ARWorld.unity
+  isLoaded: 0
+  isActive: 0

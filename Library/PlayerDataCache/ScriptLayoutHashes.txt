@@ -118,6 +118,7 @@ e3614d77c024e8379444f971096aaac4 Assembly-CSharp.dll:.UnityARCameraManager
 309e547d6f2833ee003b6fc3615737d6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureSideWallModifier
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.GlobeTileProvider
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLoader
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Utilities.Runnable
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -156,6 +157,7 @@ a1e791bb9ad92184f59cc363375b09c9 Assembly-CSharp.dll:Mapbox.Unity.Ar.AverageHead
 3bb63cd893ef5220596dcce852aab115 Assembly-CSharp.dll:Mapbox.Examples.Playground.RasterTileExample
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.ForwardGeocodeUserInput
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.FeatureSelectionDetector
 fbf715d60e9454aa5185b1fc9ffc4e5c Assembly-CSharp.dll:Mapbox.Examples.LabelTextSetter
 39c1b55c595755c48c3ed2b7db14b332 Assembly-CSharp.dll:.DemoGUI
@@ -282,6 +284,7 @@ a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl
 a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMoveAndRotate
 197981c001bff8a455daa01995a3fe5a Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TagModifier
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuforiaCameraIssueFix
 7bf8b282e06673f1f43abd60f0289702 Assembly-CSharp.dll:Mapbox.Unity.Utilities.DebugTools.ScenesList
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.ForcedReset
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
@@ -329,6 +332,7 @@ f6dccfc611980e48234f29ac86dfc6a1 Assembly-CSharp.dll:Mapbox.Examples.Scripts.Uti
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.QuadTreeTileProvider
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
 7268a009b3414637f381449babcae5f3 Assembly-CSharp.dll:Mapbox.Unity.Location.LocationProviderFactory
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UpdateShaderCoordinatesByARPlane
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.CameraBoundsTileProvider
 9f6f72e74d0d2ae17420927ecf5506a8 Assembly-CSharp.dll:Mapbox.Examples.SpawnOnGlobeExample
@@ -477,7 +481,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VuforiaCameraIssueFix
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLoader
