@@ -3,6 +3,7 @@
 ## TTUWAR: Texas Tech University's Water Augmented Reality
 
 by:
+
 * Gantaphon Chalumporn
 * Jijun Sui
 * Luis Rausseo
@@ -26,6 +27,19 @@ The map was created using the API from Mapbox.
 ![Map Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Basemap.PNG)
 
 * [BaseMap](https://api.mapbox.com/styles/v1/luisrausseo/cjfbw7qvt0crj2rofx2ntq8zc.html?fresh=true&title=true&access_token=pk.eyJ1IjoibHVpc3JhdXNzZW8iLCJhIjoiY2pmYTZvN25jMDNuajJxcGF1eTRkaWh2eCJ9.okUiQz3Gexgb8rHDQ2Fzdw#16.29/33.584049/-101.874651)
+
+## Progress
+
+### Luis: 
+
+* ~~Created basemap and add it to Unity.~~
+* ~~Created principal scene of location-based game.~~
+* ~~Modified/created scripts to get user location.~~
+* ~~Added player and animations.~~
+* ~~Modified/created scripts to add POI's models to map based on longitude and latitude.~~
+* ~~Created AR camera scene and scripts to swtich between scenes.~~
+* Pending: Fix GUI.
+* Pending: Fix animation of player while walking. 
 
 ## References
 
