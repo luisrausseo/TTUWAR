@@ -279,9 +279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'AR Mode
-
-'
+  m_Text: 
 --- !u!222 &711817558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -428,9 +426,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 48.72, y: 39.72}
-  m_SizeDelta: {x: 67.64, y: 43.03}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -194.16, y: -380.28}
+  m_SizeDelta: {x: -398.99, y: -772.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703553078
 MonoBehaviour:
@@ -492,8 +490,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bcff7ad4bf336f54684b65e6e9cf3a84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
