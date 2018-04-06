@@ -2,6 +2,7 @@ Android
 PlayerPath?
 C:/Users/luisr/Desktop/Unity/TTUWAR/TTUWAR.apk
 SceneListBegin?
+Assets/LoadingScreen.unity
 Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
 Assets/ARWorld.unity
 SceneListEnd?
@@ -481,3 +482,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
+2763f9319f4903ee7eba3d19287de822 Assembly-CSharp.dll:.GameStart

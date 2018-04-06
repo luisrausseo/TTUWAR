@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadScene(int level)
     {
         Application.LoadLevel(level);
-        if (level == 1)
+        if (level == 2)
         {
             VuforiaRuntime.Instance.InitVuforia();
         }

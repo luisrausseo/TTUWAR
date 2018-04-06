@@ -258,6 +258,7 @@
   <ItemGroup>
     <Compile Include="Assets\CameraTouchRotation.cs" />
     <Compile Include="Assets\CenterLocation.cs" />
+    <Compile Include="Assets\GameStart.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\ComputerVisionController.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\EdgeDetector.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReader.cs" />

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/LoadingScreen.unity
+    guid: 225ec47410706f24bada4adb73dedb54
+  - enabled: 1
     path: Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
     guid: 49f1ae7ff8c69466a9fd31117cca0599
   - enabled: 1
