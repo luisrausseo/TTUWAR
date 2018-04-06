@@ -613,6 +613,7 @@
     <Compile Include="Assets\MapboxAR\Unity\Ar\Utilities\PlotRoute.cs" />
     <Compile Include="Assets\positionCalc.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
+    <Compile Include="Assets\speedCalculator.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />

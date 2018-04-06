@@ -304,6 +304,7 @@ bf2cf9401d7443cb02c1a66d3a4f2575 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 e31ef279e8d06182f0817ebd899ff54c Assembly-CSharp.dll:.UnityARUserAnchorExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
+2763f9319f4903ee7eba3d19287de822 Assembly-CSharp.dll:.GameStart
 03a1d876922570ac3b9a29ec8f06fc81 Assembly-CSharp.dll:Mapbox.Examples.ChangeShadowDistance
 38bf2dc37578e2b93cce72d1d6e2f915 Assembly-CSharp.dll:Mapbox.Unity.Utilities.OpenUrlOnButtonClick
 142b07798848d35fb1776ce00de69b4c Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.TerrainFactory
@@ -482,4 +483,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-2763f9319f4903ee7eba3d19287de822 Assembly-CSharp.dll:.GameStart
+51752d83846c6a67671a67a7e1bb8b9c Assembly-CSharp.dll:Mapbox.Examples.speedCalculator

@@ -163,6 +163,12 @@ public class SimpleCharacterControl : MonoBehaviour {
         float diffLon = (Mathf.Abs(lonA - Input.location.lastData.longitude) / Input.location.lastData.longitude) * 1000000;
         float diffLat = (Mathf.Abs(latA - Input.location.lastData.latitude) / Input.location.lastData.latitude) * 1000000;
 
+        //Mapbox.Utils.Vector2d posA = Mapbox.Unity.Utilities.Conversions.LatLonToMeters(latA, lonA);
+        //Mapbox.Utils.Vector2d posB = Mapbox.Unity.Utilities.Conversions.LatLonToMeters(Input.location.lastData.latitude, Input.location.lastData.longitude);
+        //float dist = Mathf.Sqrt(Mathf.Pow((float)(posB.x-posA.x),2)+ Mathf.Pow((float)(posB.y - posA.y), 2));
+        //float time = Time.deltaTime;
+        //float speed = dist / time;
+
         if (diffLon > 0.4 || diffLat > 0.4)
         {
             m_animator.SetFloat("MoveSpeed", 0.98f);
@@ -175,7 +181,6 @@ public class SimpleCharacterControl : MonoBehaviour {
         {
             m_animator.SetFloat("MoveSpeed", 0f);
         }
-        new WaitForSeconds(1f);
         lonA = Input.location.lastData.longitude;
         latA = Input.location.lastData.latitude;
         
