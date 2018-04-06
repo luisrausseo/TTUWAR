@@ -8,7 +8,7 @@ by:
 * Jijun Sui
 * Luis Rausseo
 
-![Main Screenshot]()
+![Main Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png)
 
 TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to create an account to link the score to a database. 
 
@@ -28,6 +28,12 @@ The map was created using the API from Mapbox.
 
 * [BaseMap](https://api.mapbox.com/styles/v1/luisrausseo/cjfbw7qvt0crj2rofx2ntq8zc.html?fresh=true&title=true&access_token=pk.eyJ1IjoibHVpc3JhdXNzZW8iLCJhIjoiY2pmYTZvN25jMDNuajJxcGF1eTRkaWh2eCJ9.okUiQz3Gexgb8rHDQ2Fzdw#16.29/33.584049/-101.874651)
 
+### Miscellaneous
+
+* [Never Surrender Font](https://www.dafont.com/never-surrender.font)
+* [TTU Double T Logo](https://www.depts.ttu.edu/rawlsbusiness/communications/brand/)
+* [Splash Screen Background](http://www.kinyu-z.net/WDF-966875.html)
+
 ## Progress
 
 ### Luis: 
@@ -38,6 +44,7 @@ The map was created using the API from Mapbox.
 * ~~Added player and animations.~~
 * ~~Modified/created scripts to add POI's models to map based on longitude and latitude.~~
 * ~~Created AR camera scene and scripts to swtich between scenes.~~
+* ~~Added splash screen.~~
 * Pending: Fix GUI.
 * Pending: Fix animation of player while walking. 
 
