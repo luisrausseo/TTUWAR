@@ -8,7 +8,7 @@ by:
 * Jijun Sui
 * Luis Rausseo
 
-![Main Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png =250x250)
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="200" height="400" />
 
 TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to create an account to link the score to a database. 
 
