@@ -45,6 +45,7 @@ The map was created using the API from Mapbox.
 * ~~Modified/created scripts to add POI's models to map based on longitude and latitude.~~
 * ~~Created AR camera scene and scripts to swtich between scenes.~~
 * ~~Added splash screen.~~
+* ~~Added Facebook SDK and enable login feature~~
 * Pending: Fix GUI.
 * Pending: Fix animation of player while walking. 
 
