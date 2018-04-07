@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Facebook.Unity;
 
 public class GameStart : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class GameStart : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetTouch(0).phase == TouchPhase.Ended && loadScene == false)
+        //if ((Input.GetTouch(0).phase == TouchPhase.Ended || Input.GetKeyUp(KeyCode.Space) && loadScene == false))
+        if (FB.IsLoggedIn && loadScene == false)
         {
             loadScene = true;
             loadingText.text = "Loading...";
