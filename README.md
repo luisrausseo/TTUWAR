@@ -19,6 +19,11 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 * [Character Pack: Free Sample by SUPERCYAN](https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870)
 * [Cartoon Lowpoly Water Well by Antonio Neves](https://assetstore.unity.com/packages/3d/environments/fantasy/cartoon-lowpoly-water-well-29717)
 * [Water FX Pack by Unity Technologies](https://assetstore.unity.com/packages/vfx/particles/environment/water-fx-pack-19248)
+* [Hand-Painted Fountain](https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694)
+* [Medieval Stone Water Well](https://assetstore.unity.com/packages/3d/environments/medieval-stone-water-well-30476)
+* [Fantasy Object Free Set](https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-object-free-set-66160)
+
+https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694
 
 ### Map
 
@@ -27,6 +32,14 @@ The map was created using the API from Mapbox.
 ![Map Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Basemap.PNG)
 
 * [BaseMap](https://api.mapbox.com/styles/v1/luisrausseo/cjfbw7qvt0crj2rofx2ntq8zc.html?fresh=true&title=true&access_token=pk.eyJ1IjoibHVpc3JhdXNzZW8iLCJhIjoiY2pmYTZvN25jMDNuajJxcGF1eTRkaWh2eCJ9.okUiQz3Gexgb8rHDQ2Fzdw#16.29/33.584049/-101.874651)
+
+### Android Camera
+
+For developing on PC, DroidCam is used to retrive wireless camera input from Android device.
+
+![DroidCam Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/droidcam.PNG)
+
+* [DroidCam](https://www.dev47apps.com/)
 
 ### Miscellaneous
 
@@ -48,6 +61,19 @@ The map was created using the API from Mapbox.
 * ~~Added Facebook SDK and enable login feature~~
 * Pending: Fix GUI.
 * Pending: Fix animation of player while walking. 
+
+### Gantaphon: 
+
+* ~~Tested Vuforia AR platform in seperate project.~~
+* ~~Created AR database on Vuforia.~~
+* ~~Seted Vuforia configuration for Unity project.~~
+* ~~Mapped modle on taget AR image.~~
+* ~~Use DroidCam to test AR on PC platform.~~
+* ~~Merged AR finished scene with Map scene.~~
+* ~~Added more models and target image.~~
+* Pending: Link from AR object to quiz scene. 
+* Pending: Add more scene base on individual well. 
+
 
 ## References
 

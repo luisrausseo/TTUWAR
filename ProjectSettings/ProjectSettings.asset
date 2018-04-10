@@ -641,7 +641,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     UNet: 1
-  facebookSdkVersion: 7.9.4
+  facebookSdkVersion: pluginIncompatible
   apiCompatibilityLevel: 2
   cloudProjectId: 9cc5a6a2-a9d2-4f93-8746-51b0641e4d81
   projectName: TTUWAR
