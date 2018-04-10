@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AVPMlLn/////AAAAma9uq8NSKkPMq+O5diB/zCQ4GG7oZwMisuUOXGI18REN356HOxa9Ge3VAsVzdyq2qh0CC3lChXNePlLw2g2dwujmVZuJi4yAHy60x/9z8Me7ZVWmpBpViy3ifXHDNC/NcoObsfpBnigD3Y/FOdy8RlaiTs/GAdaUReoBel0CVevBu6RZcCUXQjpJ5cE1rvm35DqNvmgTrHPYBV90en+Bac5VLs+AFmz3W7glgySKAuaFnstPymchaTO5U29lj27iE61x7GbOkQqXXwJXyCXMzJri5+XCwgZTnYmA4Jgj/y9ikuE9bWHhxUnW3sOzv8hT0d7VjdDfkElDbaj1Z5C2ln3SwnkncNY5W+Qj/hcwyV1g
-    ufoLicenseKey: QVQydzJDVC8vLy8vQUFBQUtFaDBxTGlycmtldG91U3IxVWZabjRDVnhETkxhZ29rcDlnRjVONFhMSldrc1lzRXBIWjlPbml0VndMRnJVdnAzU0JKU1IzSkNPVEZwRXFXUUMrc0lFYkpiY1BiM29WNzUxL3RRUHhrYk1KZVNHU1FmMjYrZ0d3QS93S1NJb3l0akI4anhFRThJNG9BVDRQTGpmRytXNzlFVjJKU2xmSDZJUmJjcm1BU3BNR0tyN0FvR0YwbjhDVEFkL1RpdGd2bGJEdWYxTkdqcjM2T0pXOUdJSnAzajlEWmF1VnNHc0dKZXMwUFpPWFVqS1ZacjN5eHpnVXc2Um5ycXF0L3VwZ0VBdjVwcS9DOFhyWE1peUV6dXZlc1YrOURKVjNYcXNLT3lkRzJTcGdrRXRYSXpxWm9CdWI2Y1NVaGd3QmtYRG5VUURIL3ZHTVRYNUg5Zm9nYXJaVklYTHo0UDNoL2x2Ri82N3JzeDlXcWYvcEo=
-    delayedInitialization: 1
-    cameraDeviceModeSetting: -1
+    vuforiaLicenseKey: Afjsl5L/////AAABmU1E2dcdjETXhkm/UuZbay48oGZOwn1PTdmM0HknFdSEuYH8SA5Yg+QUtoa+semWhlI3kxpR0K3Kd6i7U1vqpHt2S7qO9mQZPScpIbdlAxf6EM4tRQ3itFiRmFoBYqtMafGFunuPGlj+sPm/K8p8z3xPxu6eZk1/8njiMGAO+Q9ZZnC6yb5vPzhhrVfEql/+HfCJ7t8S5nL2nPGLBk/nxIcb7a9RubmBNftl8DnH/BB3mEX4DJ0n3F6usaqS3SEgAwW6BP21RVj8V04iu9k9H4S6x0taC18w+DGo6mulRoeNZp+grSzAoOluRzFtP58jJZTqe2jZrVNZGoZU0CGUUlMuOzDe5Pd2SVYPzFL5Fcr/
+    ufoLicenseKey: QWJhUjNKdi8vLy8vQUFBQUtFZU0xK3M3SDA1bHR2MDBJcGZmcDF4cmo3MG9IMG5iUTNheWpHZisyYkxsRHcvRnp2VG1tUVM1MytuOVlZS1RUc2dXeHhhYUVDOWJ6MmYwOHVnOHkzUlMrYVQ5OFAyakN2dUZ4dlJFZEpKSXd6MlY3N0M0Y0JWbTUzVVppMFdOQVBXLy92OXVMbjBMb3d4ODBxcXNxMGlqL2JGb3FmQ2Q1Vnd6VCtQTm9SbmVmSzQxSDRBZE9jRVkyckZCMXVPbTJ2UzVkSWtmK3doMFZZdFBpMWRGNU1TSytxNHIyMFFXWExONkNXTHpyNHlZeXA2dDNBL2hORjZEaUlmbGVHQm90MFlwajYvT2dkREJnVUljUW9aQ0FVMCtoZUp0TTh0SGhHRmNhcU52bnRyenF5dFNlbjVWK2tkUVQxSVF0czdYU0MycW5LTFV6NnhMSzNLNFJQK01oUEVvRVJaM2I0V2ZVMWdyV0k4VU8rQTU=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
@@ -44,11 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
+    - Test
     dataSetsToActivate:
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
+    - Test
   videoBackground:
     clippingMode: 0
     numDivisions: 2
