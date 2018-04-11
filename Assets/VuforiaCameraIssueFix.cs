@@ -17,7 +17,7 @@ public class VuforiaCameraIssueFix : MonoBehaviour
             MethodInfo attachHandler = typeof(VuforiaRuntime).GetMethod("AttachVuforiaToMainCamera", BindingFlags.NonPublic | BindingFlags.Static);
 
             Delegate d = Delegate.CreateDelegate(tDelegate, attachHandler);
-            SceneManager.sceneLoaded -= d as UnityEngine.Events.UnityAction<Scene, LoadSceneMode>;
+            SceneManager.sceneLoaded -= d as UnityAction<Scene, LoadSceneMode>;
         }
         catch (Exception e)
         {

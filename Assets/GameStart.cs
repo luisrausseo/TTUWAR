@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 using Facebook.Unity;
@@ -15,7 +16,6 @@ public class GameStart : MonoBehaviour
 
     void Update()
     {
-        //if ((Input.GetTouch(0).phase == TouchPhase.Ended || Input.GetKeyUp(KeyCode.Space) && loadScene == false))
         if (FB.IsLoggedIn && loadScene == false)
         {
             loadScene = true;
@@ -31,7 +31,7 @@ public class GameStart : MonoBehaviour
     IEnumerator LoadNewScene()
     {
         yield return new WaitForSeconds(3);
-        AsyncOperation async = Application.LoadLevelAsync(scene);
+        AsyncOperation async = SceneManager.LoadSceneAsync(scene, LoadSceneMode.Single);
         while (!async.isDone)
         {
             yield return null;

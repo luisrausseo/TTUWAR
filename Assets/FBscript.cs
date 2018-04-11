@@ -72,10 +72,10 @@ public class FBscript : MonoBehaviour
     {
         if (isLoggedIn)
         {
-            DialogLoggedIn.SetActive(true);
+            //DialogLoggedIn.SetActive(true);
             DialogLoggedOut.SetActive(false);
             FB.API("/me?fields=first_name", HttpMethod.GET, DisplayUsername);
-            FB.API("/me/picture?type=square&height=128&width=128", HttpMethod.GET, DisplayProfilePic);
+            FB.API("/me/picture?type=square&height=256&width=256", HttpMethod.GET, DisplayProfilePic);
         }
         else
         {
@@ -102,7 +102,8 @@ public class FBscript : MonoBehaviour
         if (result.Texture != null)
         {
             Image ProfilePic = DialogProfilePic.GetComponent<Image>();
-            ProfilePic.sprite = Sprite.Create(result.Texture, new Rect(0, 0, 128, 128), new Vector2());
+            ProfilePic.sprite = Sprite.Create(result.Texture, new Rect(0, 0, 256, 256), new Vector2());
         }
+        DialogLoggedIn.SetActive(true);
     }
 }
