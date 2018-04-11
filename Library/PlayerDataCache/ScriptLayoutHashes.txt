@@ -476,3 +476,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
+2ddc5eb256fdf4b91b95ccb6ea6168fc Assembly-CSharp.dll:.ShowNextOnClick
+b7dd0ce95616356e605602d934e0b513 Assembly-CSharp.dll:.DemoToggle
+49cd62a578efc0a599b810a2b66cd49c Assembly-CSharp.dll:.MultiImageButton
+efed11163c1bfeb721b020b1a9500a71 Assembly-CSharp.dll:.InGameGUI
