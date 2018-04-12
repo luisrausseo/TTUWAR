@@ -10,7 +10,7 @@ by:
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
 
-TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to create an account to link the score to a database. 
+TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to login in to FB. In the game, answering quizzes correctly will accumulate score, which is stored in a database that the player can view through the HighScore button. Going there will prompt you to sumbit your score with a nickname, or view high scores directly. 
 
 ## Sources
 
@@ -40,6 +40,8 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 ![DroidCam Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/droidcam.PNG)
 
 * [DroidCam](https://www.dev47apps.com/)
+
+
 
 ### Miscellaneous
 
@@ -74,6 +76,18 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * Pending: Link from AR object to quiz scene. 
 * Pending: Add more scene base on individual well. 
 
+### Jijun:
+
+* ~~Created a leaderboard scene in Unity.~~
+* ~~Created UI elements to display rank, score, and player entered nickname~~
+* ~~Configured dreamlo leaderboards database and set up a connection between project and database~~
+* ~~Created a UI that prompts a nickname to submit score.~~
+* ~~Added buttons to navigate between Map scene and highscores scene~~
+* ~~Created score script to keep track of player score during the entire game~~
+* Pending: Improve UI appearance
+* Pending: Modify score system to subtract points, give bonus points, etc.
+
+
 
 ## References
 
@@ -81,3 +95,4 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * [Unity Asset Store](https://assetstore.unity.com/)
 * [CS 4331 - Project 2: Water resources](https://idatavisualizationlab.github.io/CS5331-VirtualReality/)
 * [Mapbox](https://www.mapbox.com/)
+* [dreamlo Leaderboards] (http://dreamlo.com/)
