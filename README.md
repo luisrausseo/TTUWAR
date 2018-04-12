@@ -14,7 +14,7 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 
 ## Sources
 
-### Models
+### Assets
 
 * [Character Pack: Free Sample by SUPERCYAN](https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870)
 * [Cartoon Lowpoly Water Well by Antonio Neves](https://assetstore.unity.com/packages/3d/environments/fantasy/cartoon-lowpoly-water-well-29717)
@@ -22,6 +22,7 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 * [Hand-Painted Fountain](https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694)
 * [Medieval Stone Water Well](https://assetstore.unity.com/packages/3d/environments/medieval-stone-water-well-30476)
 * [Fantasy Object Free Set](https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-object-free-set-66160)
+* [Casual Game GUI Skin by Dead Mosquito Games](https://assetstore.unity.com/packages/2d/gui/casual-game-gui-skin-67196)
 
 https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694
 
@@ -42,7 +43,6 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * [DroidCam](https://www.dev47apps.com/)
 
 
-
 ### Miscellaneous
 
 * [Never Surrender Font](https://www.dafont.com/never-surrender.font)
@@ -60,9 +60,13 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Modified/created scripts to add POI's models to map based on longitude and latitude.~~
 * ~~Created AR camera scene and scripts to swtich between scenes.~~
 * ~~Added splash screen.~~
-* ~~Added Facebook SDK and enable login feature~~
-* Pending: Fix GUI.
-* Pending: Fix animation of player while walking. 
+* ~~Added Facebook SDK and enabled login feature.~~
+* ~~Fixed world scene GUI.~~
+* ~~Made quiz GUI.~~
+* ~~Made QuizManager system.~~
+* ~~Merged final AR scene with World scene and Leaderboard system.~~
+* Pending: Fix animation of player while walking/GPS speed script. 
+* Pending: Get unique username from Facebook API for the leaderboard. 
 
 ### Gantaphon: 
 
@@ -73,8 +77,8 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Use DroidCam to test AR on PC platform.~~
 * ~~Merged AR finished scene with Map scene.~~
 * ~~Added more models and target image.~~
-* Pending: Link from AR object to quiz scene. 
-* Pending: Add more scene base on individual well. 
+* Pending: Create more quizzes. 
+* Pending: Add information tabregarding POIs.
 
 ### Jijun:
 
@@ -84,10 +88,8 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Created a UI that prompts a nickname to submit score.~~
 * ~~Added buttons to navigate between Map scene and highscores scene~~
 * ~~Created score script to keep track of player score during the entire game~~
-* Pending: Improve UI appearance
+* Pending: Add sound.
 * Pending: Modify score system to subtract points, give bonus points, etc.
-
-
 
 ## References
 
@@ -95,4 +97,10 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * [Unity Asset Store](https://assetstore.unity.com/)
 * [CS 4331 - Project 2: Water resources](https://idatavisualizationlab.github.io/CS5331-VirtualReality/)
 * [Mapbox](https://www.mapbox.com/)
-* [dreamlo Leaderboards] (http://dreamlo.com/)
+* [dreamlo Leaderboards](http://dreamlo.com/)
+
+## Disclaimer
+
+TTU and Double T(R) logo are registered trademarks of Texas Tech University. Used in this project under the authorization of the Office of Marketing and Brand Management at Texas Tech University.
+
+[Authorization](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Double_T_Logo_Authorization.pdf)
