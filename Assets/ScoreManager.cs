@@ -3,17 +3,10 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    // From the inspector, drag & Drop the GameObject holding the Text component used to display the score
     [SerializeField]
 
     private static int score;
     public Text scoreText;
-
-    //To add or subtract score, use
-    // private ScoreManager scoreManager;
-    //then
-    //scoreManager.Score++;
-    //scoreManager.Score--;
 
     void Start()
     {
