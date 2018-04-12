@@ -273,6 +273,8 @@
     <Compile Include="Assets\CasualGameUI\Demo\MultiImageButton.cs" />
     <Compile Include="Assets\CasualGameUI\Demo\ShowNextOnClick.cs" />
     <Compile Include="Assets\CenterLocation.cs" />
+    <Compile Include="Assets\DisplayHighscores.cs" />
+    <Compile Include="Assets\EnterName.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
@@ -287,6 +289,7 @@
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\FBscript.cs" />
     <Compile Include="Assets\GameStart.cs" />
+    <Compile Include="Assets\Highscores.cs" />
     <Compile Include="Assets\InGameGUI.cs" />
     <Compile Include="Assets\loadPic.cs" />
     <Compile Include="Assets\Mapbox\Core\cheap-ruler-cs\CheapRuler.cs" />
@@ -559,9 +562,12 @@
     <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorEntity.cs" />
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+    <Compile Include="Assets\markerDetected.cs" />
     <Compile Include="Assets\positionCalc.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
+    <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\speedCalculator.cs" />
+    <Compile Include="Assets\startQuiz.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />

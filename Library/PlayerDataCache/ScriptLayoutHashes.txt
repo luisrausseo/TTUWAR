@@ -23,6 +23,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.MapVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.ReverseGeocodeUserInput
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.RangeAroundTransformTileProvider
+2ddc5eb256fdf4b91b95ccb6ea6168fc Assembly-CSharp.dll:.ShowNextOnClick
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainModifier
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.AppEvents
@@ -64,6 +65,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 0724c48624eed14613582f082e23eec0 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebuggerGizmo
+b7dd0ce95616356e605602d934e0b513 Assembly-CSharp.dll:.DemoToggle
 8e9f5b922979e9356a11d2ee2b32ee60 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.GameObjectModifier
 964171a6183069e4be7d9c69b4a15246 Assembly-CSharp.dll:.positionCalc
@@ -106,6 +108,7 @@ ff21ee75bd4f1bf559d9a8614e4e41da Assembly-CSharp.dll:Mapbox.Unity.Map.TileErrorH
 ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:Mapbox.Unity.Map.InitializeMapWithLocationProvider
 e81238197aa643d93e3d903c06302a67 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ColliderModifier
 00c6524565e02b69a42dbf29b719677d Assembly-CSharp.dll:Mapbox.Examples.SpawnOnMap
+efed11163c1bfeb721b020b1a9500a71 Assembly-CSharp.dll:.InGameGUI
 309e547d6f2833ee003b6fc3615737d6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureSideWallModifier
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.GlobeTileProvider
@@ -268,6 +271,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 7bf8b282e06673f1f43abd60f0289702 Assembly-CSharp.dll:Mapbox.Unity.Utilities.DebugTools.ScenesList
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.ForcedReset
 57fde8e76fc7bce23deb0e799d336be7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SmoothFollow
+49cd62a578efc0a599b810a2b66cd49c Assembly-CSharp.dll:.MultiImageButton
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.QuadTreeMapVisualizer
 3f21ae0b24592db99d731819f13bbb93 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.DirectionsFactory
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
@@ -476,7 +480,9 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-2ddc5eb256fdf4b91b95ccb6ea6168fc Assembly-CSharp.dll:.ShowNextOnClick
-b7dd0ce95616356e605602d934e0b513 Assembly-CSharp.dll:.DemoToggle
-49cd62a578efc0a599b810a2b66cd49c Assembly-CSharp.dll:.MultiImageButton
-efed11163c1bfeb721b020b1a9500a71 Assembly-CSharp.dll:.InGameGUI
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Highscores
+879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.ScoreManager
+7358c96c997df52482021957594b12bb Assembly-CSharp.dll:.DisplayHighscores
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnterName
+9a08248156fc8fbf187fab585ad10f90 Assembly-CSharp.dll:.markerDetected
+88e90bba11d281e938970e4d9bf5049e Assembly-CSharp.dll:.startQuiz
