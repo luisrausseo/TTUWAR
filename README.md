@@ -2,15 +2,135 @@
 
 ## TTUWAR: Texas Tech University's Water Augmented Reality
 
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
+
 by:
 
 * Gantaphon Chalumporn
 * Jijun Sui
 * Luis Rausseo
 
-<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
+## The Game
 
 TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to login in to FB. In the game, answering quizzes correctly will accumulate score, which is stored in a database that the player can view through the HighScore button. Going there will prompt you to sumbit your score with a nickname, or view high scores directly. 
+
+### Login
+
+To play TTUWAR, the player will need to login using Facebook when opening the application for the first time. This is needed to personalize the experience for the user and be able to upload player's score to the leaderboard.
+
+![Main Screen]()
+
+### How to play?
+
+TTUWAR is a location based game, which means the player would need to navigate the real world to play this game. GPS location is retreived by the game and used to determine player's location.
+
+There are several water sources / features around campus in which the player can find a sticker with a distinct marker. When the marked is scanned with the AR camera, an activity will start.
+
+![Main Play]()
+
+As per now, these activities are just quizzes regarding the water feature. 
+
+![Quiz]()
+
+> __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
+
+Every correct answer will grant the player 5 points. 
+
+## Development
+
+### Vuforia
+
+Since Vuforia for Unity has a weird behaivor in which overrides the main camera of all scenes, the following script was implemented to stop Vuforia in the first scene. 
+
+```C#
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+using Vuforia;
+using System.Reflection;
+using System;
+
+public class VuforiaCameraIssueFix : MonoBehaviour
+{
+    void Awake()
+    {
+        try
+        {
+            EventInfo evSceneLoaded = typeof(SceneManager).GetEvent("sceneLoaded");
+            Type tDelegate = evSceneLoaded.EventHandlerType;
+
+            MethodInfo attachHandler = typeof(VuforiaRuntime).GetMethod("AttachVuforiaToMainCamera", BindingFlags.NonPublic | BindingFlags.Static);
+
+            Delegate d = Delegate.CreateDelegate(tDelegate, attachHandler);
+            SceneManager.sceneLoaded -= d as UnityAction<Scene, LoadSceneMode>;
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning("Cant remove the AttachVuforiaToMainCamera action: " + e.ToString());
+        }
+    }
+}
+```
+
+When activating the AR camera, it is just needed to run this line of code to activate Vuforia.
+
+`VuforiaRuntime.Instance.InitVuforia();`
+
+The following line of code, can be used to stop the camera:
+
+`VuforiaBehaviour.Instance.enabled = false;`
+
+### Facebook SDK for Unity
+
+### Mapbox SDK for Unity
+
+The map was created using the API from Mapbox.
+
+![Map Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Basemap.PNG)
+
+* [BaseMap](https://api.mapbox.com/styles/v1/luisrausseo/cjfbw7qvt0crj2rofx2ntq8zc.html?fresh=true&title=true&access_token=pk.eyJ1IjoibHVpc3JhdXNzZW8iLCJhIjoiY2pmYTZvN25jMDNuajJxcGF1eTRkaWh2eCJ9.okUiQz3Gexgb8rHDQ2Fzdw#16.29/33.584049/-101.874651)
+
+### Water Wells Locator
+
+To set the position of the models regarding the Water Wells in the world map, a correction factor had to be calculated since the coordenates from MapBox differs from the ones that Google Maps provide.
+
+```C#
+namespace Mapbox.Examples
+{
+    using Mapbox.Unity.Location;
+    using UnityEngine;
+
+    public class WaterSourcesLocation : MonoBehaviour
+    {
+        [SerializeField] private Vector2[] LatLon;
+        [SerializeField] private GameObject[] POIs;
+
+        bool _isInitialized;
+        private float Zcorrection = 4.98445f;
+        private float Xcorrection = 6.289173f;
+        private Vector2 origin = new Vector2(-7.89f, 16.37f);
+
+        private AbstractLocationProvider _locationProvider = null;
+
+
+        void LateUpdate()
+        {
+            Unity.Map.AbstractMap map = LocationProviderFactory.Instance.mapManager;
+
+            for (int i = 0; i < LatLon.Length; i++)
+            {
+                Utils.Vector2d currentPos = new Utils.Vector2d(LatLon[i].x, LatLon[i].y);
+                Vector3 coord = new Vector3(map.GeoToWorldPositionXZ(currentPos).x - Xcorrection, -15.8f, map.GeoToWorldPositionXZ(currentPos).z + Zcorrection);
+                POIs[i].transform.localPosition = coord;
+            }
+        }
+
+    }
+}
+```
+
+![Unity Script Screenshot}() 
+
 
 ## Sources
 
@@ -26,13 +146,6 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 
 https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694
 
-### Map
-
-The map was created using the API from Mapbox.
-
-![Map Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Basemap.PNG)
-
-* [BaseMap](https://api.mapbox.com/styles/v1/luisrausseo/cjfbw7qvt0crj2rofx2ntq8zc.html?fresh=true&title=true&access_token=pk.eyJ1IjoibHVpc3JhdXNzZW8iLCJhIjoiY2pmYTZvN25jMDNuajJxcGF1eTRkaWh2eCJ9.okUiQz3Gexgb8rHDQ2Fzdw#16.29/33.584049/-101.874651)
 
 ### Android Camera
 
