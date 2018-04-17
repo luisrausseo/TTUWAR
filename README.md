@@ -82,6 +82,12 @@ The following line of code, can be used to stop the camera:
 
 ### Facebook SDK for Unity
 
+Facebook SDK was used to personalize user's experience. It was needed to be able to make the leaderboard since the player's name was required to submit the highscores. 
+
+> __Note__: in the future, more login providers could be added to the application.
+
+To make the Facebook SDK Unity plugin to run, it was needed to install [OpenSSL](https://www.openssl.org/) to make it work.
+
 ### Mapbox SDK for Unity
 
 The map was created using the API from Mapbox.
@@ -131,6 +137,14 @@ namespace Mapbox.Examples
 
 ![Unity Script Screenshot}() 
 
+### Building the Project
+
+During the development of this project, one the challenges was to actually build the .apk for Android. To that end, the following SDKs were used:
+
+* [Android Studio](https://developer.android.com/studio/index.html) with SDK API 24 - 27
+* Android NDK
+* [Java SE Development Kit 8u171](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* Unity for Windows ver. 2017.4.0f1 (64-bit)
 
 ## Sources
 
