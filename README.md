@@ -12,7 +12,7 @@ by:
 
 ## The Game
 
-TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to login in to FB. In the game, answering quizzes correctly will accumulate score, which is stored in a database that the player can view through the HighScore button. Going there will prompt you to sumbit your score with a nickname, or view high scores directly. 
+TTUWAR is a location-based AR mobile game in which the player can go walking around TTU campus and when close to a POI (Water source), the player can trigger a minigame/quiz that if completed it will give points to the player. When playing the first time, the player will need to login in to FB. In the game, answering quizzes correctly will accumulate score, which is stored in a database that the player can view through the HighScore button. Going there will prompt you to submit your score with a nickname, or view high scores directly. 
 
 ### Login
 
