@@ -20,6 +20,8 @@ To play TTUWAR, the player will need to login using Facebook when opening the ap
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021953_TTUWAR.jpg" width="243" height="500" />
 
+> __Note__: in the future, more login providers could be added to the application.
+
 ### How to play?
 
 TTUWAR is a location based game, which means the player would need to navigate the real world to play this game. GPS location is retreived by the game and used to determine player's location.
@@ -86,8 +88,6 @@ The following line of code, can be used to stop the camera:
 
 Facebook SDK was used to personalize user's experience. It was needed to be able to make the leaderboard since the player's name was required to submit the highscores. 
 
-> __Note__: in the future, more login providers could be added to the application.
-
 To make the Facebook SDK Unity plugin to run, it was needed to install [OpenSSL](https://www.openssl.org/) to make it work.
 
 ### Mapbox SDK for Unity
@@ -137,7 +137,7 @@ namespace Mapbox.Examples
 }
 ```
 
-![Unity Script Screenshot}() 
+![Unity Script Screenshot}(https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/POIs_Editor.PNG) 
 
 ### Building the Project
 
