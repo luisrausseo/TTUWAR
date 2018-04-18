@@ -18,7 +18,7 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 
 To play TTUWAR, the player will need to login using Facebook when opening the application for the first time. This is needed to personalize the experience for the user and be able to upload player's score to the leaderboard.
 
-![Main Screen]()
+![Main Screen](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021953_TTUWAR.jpg)
 
 ### How to play?
 
@@ -26,15 +26,17 @@ TTUWAR is a location based game, which means the player would need to navigate t
 
 There are several water sources / features around campus in which the player can find a sticker with a distinct marker. When the marked is scanned with the AR camera, an activity will start.
 
-![Main Play]()
+![Main Play](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg)
 
 As per now, these activities are just quizzes regarding the water feature. 
 
-![Quiz]()
+![Quiz](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021718_TTUWAR.jpg)
 
 > __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
 
 Every correct answer will grant the player 5 points. 
+
+![Leaderboard](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021642_TTUWAR.jpg)
 
 ## Development
 
@@ -165,7 +167,7 @@ https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fount
 
 For developing on PC, DroidCam is used to retrive wireless camera input from Android device.
 
-![DroidCam Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/droidcam.PNG)
+![DroidCam Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/DroidCam.PNG)
 
 * [DroidCam](https://www.dev47apps.com/)
 
