@@ -18,7 +18,7 @@ TTUWAR is a location-based AR mobile game in which the player can go walking aro
 
 To play TTUWAR, the player will need to login using Facebook when opening the application for the first time. This is needed to personalize the experience for the user and be able to upload player's score to the leaderboard.
 
-![Main Screen](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021953_TTUWAR.jpg)
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021953_TTUWAR.jpg" width="243" height="500" />
 
 ### How to play?
 
