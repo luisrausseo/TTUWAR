@@ -26,7 +26,7 @@ TTUWAR is a location based game, which means the player would need to navigate t
 
 There are several water sources / features around campus in which the player can find a sticker with a distinct marker. When the marked is scanned with the AR camera, an activity will start.
 
-<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg" width="400" />
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg" width="400" height="300" />
 
 As per now, these activities are just quizzes regarding the water feature. 
 
