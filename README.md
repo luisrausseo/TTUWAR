@@ -44,7 +44,7 @@ Every correct answer will grant the player 5 points.
 
 ### Vuforia
 
-Since Vuforia for Unity has a weird behaivor in which overrides the main camera of all scenes, the following script was implemented to stop Vuforia in the first scene. 
+Since Vuforia for Unity has a weird behaivor in which overrides the main camera of all scenes, the following script was implemented to stop Vuforia in the first scene by attaching the script to a GameObject.  
 
 ```C#
 using UnityEngine;
@@ -75,6 +75,7 @@ public class VuforiaCameraIssueFix : MonoBehaviour
     }
 }
 ```
+> Credits to __caiovm__ from [Unity Forum](https://forum.unity.com/threads/use-ar-camera-vuforia-core-in-individual-scene-not-entire-project.498489/)
 
 When activating the AR camera, it is just needed to run this line of code to activate Vuforia.
 
@@ -137,7 +138,7 @@ namespace Mapbox.Examples
 }
 ```
 
-![Unity Script Screenshot}(https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/POIs_Editor.PNG) 
+![Unity Script Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/POIs_Editor.PNG) 
 
 ### Building the Project
 
@@ -147,6 +148,8 @@ During the development of this project, one the challenges was to actually build
 * Android NDK
 * [Java SE Development Kit 8u171](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * Unity for Windows ver. 2017.4.0f1 (64-bit)
+
+> __Note__: The Android SDKs and NDK were downloaded in Android Studio's SDK Manager.
 
 ## Sources
 
@@ -160,9 +163,6 @@ During the development of this project, one the challenges was to actually build
 * [Fantasy Object Free Set](https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-object-free-set-66160)
 * [Casual Game GUI Skin by Dead Mosquito Games](https://assetstore.unity.com/packages/2d/gui/casual-game-gui-skin-67196)
 
-https://assetstore.unity.com/packages/3d/environments/fantasy/hand-painted-fountain-41694
-
-
 ### Android Camera
 
 For developing on PC, DroidCam is used to retrive wireless camera input from Android device.
@@ -170,7 +170,6 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 ![DroidCam Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/DroidCam.PNG)
 
 * [DroidCam](https://www.dev47apps.com/)
-
 
 ### Miscellaneous
 
@@ -194,8 +193,6 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Made quiz GUI.~~
 * ~~Made QuizManager system.~~
 * ~~Merged final AR scene with World scene and Leaderboard system.~~
-* Pending: Fix animation of player while walking/GPS speed script. 
-* Pending: Get unique username from Facebook API for the leaderboard. 
 
 ### Gantaphon: 
 
@@ -206,19 +203,27 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Use DroidCam to test AR on PC platform.~~
 * ~~Merged AR finished scene with Map scene.~~
 * ~~Added more models and target image.~~
-* Pending: Create more quizzes. 
-* Pending: Add information tabregarding POIs.
 
 ### Jijun:
 
 * ~~Created a leaderboard scene in Unity.~~
-* ~~Created UI elements to display rank, score, and player entered nickname~~
-* ~~Configured dreamlo leaderboards database and set up a connection between project and database~~
+* ~~Created UI elements to display rank, score, and player entered nickname.~~
+* ~~Configured dreamlo leaderboards database and set up a connection between project and database.~~
 * ~~Created a UI that prompts a nickname to submit score.~~
-* ~~Added buttons to navigate between Map scene and highscores scene~~
-* ~~Created score script to keep track of player score during the entire game~~
-* Pending: Add sound.
-* Pending: Modify score system to subtract points, give bonus points, etc.
+* ~~Added buttons to navigate between Map scene and highscores scene.~~
+* ~~Created score script to keep track of player score during the entire game.~~
+
+## Pending:
+
+* Fix animation of player while walking/GPS speed script.
+* Fix Quiz GUI (v2)
+* Get unique username from Facebook API for the leaderboard.
+* Create more quizzes. 
+* Add information tab regarding POIs.
+* Add sound effects and BGM.
+* Modify score system to subtract points, give bonus points, etc.
+* Add different AR activities.
+* Integrate more login options.
 
 ## References
 
