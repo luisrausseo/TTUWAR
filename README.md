@@ -2,7 +2,7 @@
 
 ## TTUWAR: Texas Tech University's Water Augmented Reality
 
-<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
+<img align="center" src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
 
 by:
 
