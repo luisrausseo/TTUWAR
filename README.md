@@ -2,7 +2,7 @@
 
 ## TTUWAR: Texas Tech University's Water Augmented Reality
 
-<img align="center" src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Logo.png" width="400" height="400" />
 
 by:
 
@@ -26,17 +26,17 @@ TTUWAR is a location based game, which means the player would need to navigate t
 
 There are several water sources / features around campus in which the player can find a sticker with a distinct marker. When the marked is scanned with the AR camera, an activity will start.
 
-<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg" style="max-width:300px;" />
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg" width="243" height="500" />
 
 As per now, these activities are just quizzes regarding the water feature. 
 
-![Quiz](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021718_TTUWAR.jpg)
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021718_TTUWAR.jpg" width="243" height="500" />
 
 > __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
 
 Every correct answer will grant the player 5 points. 
 
-![Leaderboard](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021642_TTUWAR.jpg)
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021642_TTUWAR.jpg" width="243" height="500" />
 
 ## Development
 
