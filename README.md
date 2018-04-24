@@ -233,6 +233,23 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * [Mapbox](https://www.mapbox.com/)
 * [dreamlo Leaderboards](http://dreamlo.com/)
 
+## Feedback
+Q: Are the wells based on actual water resources around Lubbock, and if so which resources are they based on?
+A: All of them except one are based on actual water resources according to the data we have. There is one resources that we added near our class building for presentation purpose.
+
+Q: Were there any issues that occurred with the scanner? Or was it easy to implement
+A: There are some problems with Vuforia camera you can look for the solution through our report.
+
+Q: How expandable is this project? How easy is it to apply this to a different region or add new trivia? I like the appearance of this project.
+A: It could be applied to many other field and there are rooms for more features.
+
+Q: Would the mouse disappear?
+A: Our application run on mobile devices (Android) no mouse will be shown on the mobile. The mouse you saw during the presentation is because we ran mobile screen duplication on Windows machine.
+
+Q: Interesting game, would look into other options besides Facebook
+A: Other options can be added but we will focus on adding other features and UI improvement as our first priority.
+
+
 ## Disclaimer
 
 TTU and Double T(R) logo are registered trademarks of Texas Tech University. Used in this project under the authorization of the Office of Marketing and Brand Management at Texas Tech University.
