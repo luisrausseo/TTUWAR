@@ -289,6 +289,7 @@
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\FBscript.cs" />
     <Compile Include="Assets\GameStart.cs" />
+    <Compile Include="Assets\goToInfo.cs" />
     <Compile Include="Assets\Highscores.cs" />
     <Compile Include="Assets\InGameGUI.cs" />
     <Compile Include="Assets\loadPic.cs" />

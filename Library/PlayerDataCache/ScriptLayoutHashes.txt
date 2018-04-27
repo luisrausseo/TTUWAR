@@ -8,6 +8,7 @@ Assets/ARWorld.unity
 SceneListEnd?
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnterName
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -21,13 +22,17 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.MapVisualizer
+9a08248156fc8fbf187fab585ad10f90 Assembly-CSharp.dll:.markerDetected
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.ReverseGeocodeUserInput
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.RangeAroundTransformTileProvider
 2ddc5eb256fdf4b91b95ccb6ea6168fc Assembly-CSharp.dll:.ShowNextOnClick
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Highscores
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainModifier
+6bdfb0d5c9f9efb867e32e32ecca967c Assembly-CSharp.dll:.startQuiz
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.AppEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
+879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.ScoreManager
 51752d83846c6a67671a67a7e1bb8b9c Assembly-CSharp.dll:Mapbox.Examples.CenterLocation
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.VectorTileFactory
 9d094b02b16a0bb26c090239a64168b8 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.PrefabModifier
@@ -310,6 +315,7 @@ e2100106453ffa0f0485d9fa51b3b009 Assembly-CSharp.dll:Mapbox.Examples.ReloadMap
 142b07798848d35fb1776ce00de69b4c Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.FlatTerrainFactory
 0968ca87223034d89dd74295b540e4d2 Assembly-CSharp.dll:.FBscript
 7953c100b8da3bd767e556108cf09c4f Assembly-CSharp.dll:Mapbox.Examples.WaterSourcesLocation
+7358c96c997df52482021957594b12bb Assembly-CSharp.dll:.DisplayHighscores
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -480,9 +486,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Highscores
-879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.ScoreManager
-7358c96c997df52482021957594b12bb Assembly-CSharp.dll:.DisplayHighscores
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnterName
-9a08248156fc8fbf187fab585ad10f90 Assembly-CSharp.dll:.markerDetected
-88e90bba11d281e938970e4d9bf5049e Assembly-CSharp.dll:.startQuiz
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.goToInfo

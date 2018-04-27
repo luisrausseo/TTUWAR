@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
+using System.Collections;
 
 public class startQuiz : MonoBehaviour {
 
@@ -9,10 +11,20 @@ public class startQuiz : MonoBehaviour {
     public Text optB;
     public Text optC;
     public Text optD;
+    public ToggleGroup QuizToggle;
     public GameObject DoneBttn;
+    public GameObject SubmitBttn;
+    public GameObject LearnBttn;
+    public GameObject Toggles;
+    public GameObject[] Lifes = new GameObject[] {};
+    public AudioSource wrongAnswer;
+    public AudioSource gameOver;
+    public AudioSource correct;
+    public AudioSource WonGame;
     private int question;
     private int HowManyQuestions = 2;
-    private int[] correctAnswers = new int[] { 1, 2 };
+    private int HowManyLifes = 3;
+    private string[] correctAnswers_str = new string[] { "1", "2" };
     private Text[] TextOpt;
     
 
@@ -55,29 +67,48 @@ public class startQuiz : MonoBehaviour {
         QuizWindow.SetActive(true);
     }
 
-    public void isCorrect(int option)
+    public void submitAnswer()
     {
-        if (correctAnswers[question] == option)
+        if (QuizToggle.ActiveToggles().FirstOrDefault().name == correctAnswers_str[question])
         {
+            Debug.Log("Correct!");
+            correct.Play();
             question++;
             ScoreManager.AddScore(5);
             if (question < HowManyQuestions)
             {
                 loadQuestion();
+                QuizToggle.SetAllTogglesOff();
             }
             else
             {
-                questionText.text = "Congratulations!";
-                optA.text = "";
-                optB.text = "";
-                optC.text = "";
-                optD.text = "";
+                WonGame.Play();
+                questionText.text = "Congratulations! You won the challenge...";
+                SubmitBttn.SetActive(false);
+                Toggles.SetActive(false);
                 DoneBttn.SetActive(true);
+                LearnBttn.SetActive(true);
             }
         }
         else
         {
-            questionText.text = "Incorrect, try again!";
+            Debug.Log("Incorrect!");
+            HowManyLifes--;
+            if (HowManyLifes > 0)
+            {
+                wrongAnswer.Play();
+                Lifes[HowManyLifes].SetActive(false);
+            }
+            else
+            {
+                gameOver.Play();
+                Lifes[HowManyLifes].SetActive(false); //Last life
+                questionText.text = "You lost! Try again...";
+                SubmitBttn.SetActive(false);
+                Toggles.SetActive(false);
+                DoneBttn.SetActive(true);
+                LearnBttn.SetActive(true);
+            }
         }
     }
 }
