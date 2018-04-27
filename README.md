@@ -36,7 +36,7 @@ As per now, these activities are just quizzes regarding the water feature.
 
 > __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
 
-Every correct answer will grant the player 5 points. 
+Every correct answer will grant the player 5 points. If the player make a mistake, will lose a life and when all lifes are depleted will lose the challenge.
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021642_TTUWAR.jpg" width="243" height="500" />
 
@@ -163,6 +163,10 @@ During the development of this project, one the challenges was to actually build
 * [Fantasy Object Free Set](https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-object-free-set-66160)
 * [Casual Game GUI Skin by Dead Mosquito Games](https://assetstore.unity.com/packages/2d/gui/casual-game-gui-skin-67196)
 
+### Sounds
+
+* [ZAPSPLAT](https://www.zapsplat.com/)
+
 ### Android Camera
 
 For developing on PC, DroidCam is used to retrive wireless camera input from Android device.
@@ -193,6 +197,9 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Made quiz GUI.~~
 * ~~Made QuizManager system.~~
 * ~~Merged final AR scene with World scene and Leaderboard system.~~
+* ~~Fixed quiz GUI.~~
+* ~~Added life system to quizzes.~~
+* ~~Added sound to quiz GUI.~~
 
 ### Gantaphon: 
 
@@ -203,6 +210,7 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Use DroidCam to test AR on PC platform.~~
 * ~~Merged AR finished scene with Map scene.~~
 * ~~Added more models and target image.~~
+* ~~Replied to peer's feedback.~~
 
 ### Jijun:
 
@@ -216,11 +224,9 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 ## Pending:
 
 * Fix animation of player while walking/GPS speed script.
-* Fix Quiz GUI (v2)
 * Get unique username from Facebook API for the leaderboard.
 * Create more quizzes. 
-* Add information tab regarding POIs.
-* Add sound effects and BGM.
+* Add BGM.
 * Modify score system to subtract points, give bonus points, etc.
 * Add different AR activities.
 * Integrate more login options.
@@ -234,20 +240,26 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * [dreamlo Leaderboards](http://dreamlo.com/)
 
 ## Feedback
-Q: Are the wells based on actual water resources around Lubbock, and if so which resources are they based on?
-A: All of them except one are based on actual water resources according to the data we have. There is one resources that we added near our class building for presentation purpose.
 
-Q: Were there any issues that occurred with the scanner? Or was it easy to implement
-A: There are some problems with Vuforia camera you can look for the solution through our report.
+__Q__: Are the wells based on actual water resources around Lubbock, and if so which resources are they based on?
 
-Q: How expandable is this project? How easy is it to apply this to a different region or add new trivia? I like the appearance of this project.
-A: It could be applied to many other field and there are rooms for more features.
+__A__: All of them except one are based on actual water resources according to the data we have. There is one resources that we added near our class building for presentation purpose.
 
-Q: Would the mouse disappear?
-A: Our application run on mobile devices (Android) no mouse will be shown on the mobile. The mouse you saw during the presentation is because we ran mobile screen duplication on Windows machine.
+__Q__: Were there any issues that occurred with the scanner? Or was it easy to implement
 
-Q: Interesting game, would look into other options besides Facebook
-A: Other options can be added but we will focus on adding other features and UI improvement as our first priority.
+__A__: There are some problems with Vuforia camera you can look for the solution through our report.
+
+__Q__: How expandable is this project? How easy is it to apply this to a different region or add new trivia? I like the appearance of this project.
+
+__A__: It could be applied to many other field and there are rooms for more features.
+
+__Q__: Would the mouse disappear?
+
+__A__: Our application run on mobile devices (Android) no mouse will be shown on the mobile. The mouse you saw during the presentation is because we ran mobile screen duplication on Windows machine.
+
+__Q__: Interesting game, would look into other options besides Facebook
+
+__A__: Other options can be added but we will focus on adding other features and UI improvement as our first priority.
 
 
 ## Disclaimer
