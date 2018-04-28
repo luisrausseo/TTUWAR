@@ -29,7 +29,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Highscores
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainModifier
-6bdfb0d5c9f9efb867e32e32ecca967c Assembly-CSharp.dll:.startQuiz
+0ea59dde383bbad4ec3cffbbca7cad8d Assembly-CSharp.dll:.startQuiz
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.AppEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.ScoreManager
@@ -393,6 +393,7 @@ c764112e28455a924fb49f286444f5dc Assembly-CSharp.dll:Mapbox.Unity.Location.Edito
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 cd0167d7ce4ff561cc6218371f7c3c68 Assembly-CSharp.dll:.CameraLogic
 ec09b42957318a0f1c044fc67426c28a Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.MaterialModifier
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.goToInfo
 a03bf117f619d8739fe5c6d73c57c4c3 Assembly-CSharp.dll:Mapbox.Unity.Location.LocationArrayEditorLocationProvider
 dc35fd3260ca411ea8a18c631bc58826 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.HeightModifier
 398c029f9fc4194e24e4580b786bc3d6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Data.UnityTile
@@ -486,4 +487,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.goToInfo

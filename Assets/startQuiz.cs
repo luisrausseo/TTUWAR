@@ -20,6 +20,7 @@ public class startQuiz : MonoBehaviour {
     public AudioSource gameOver;
     public AudioSource correct;
     public AudioSource WonGame;
+    public AudioSource QuizBGM;
     private int question;
     private int HowManyQuestions = 2;
     private int HowManyLifes = 3;
@@ -34,6 +35,7 @@ public class startQuiz : MonoBehaviour {
         question = 0;
     }
 
+    // Manages the questions that will be shown
     private void loadQuestion()
     {
         switch (QuizNum)
@@ -94,12 +96,15 @@ public class startQuiz : MonoBehaviour {
     
     }
     
+    // Starts quiz
     public void GoToQuiz()
     {
+        QuizBGM.Play();
         loadQuestion();
         QuizWindow.SetActive(true);
     }
 
+    // Handles the progress of the quiz
     public void submitAnswer()
     {
         if (QuizToggle.ActiveToggles().FirstOrDefault().name == correctAnswers_str[question])
@@ -115,6 +120,7 @@ public class startQuiz : MonoBehaviour {
             }
             else
             {
+                QuizBGM.Stop();
                 WonGame.Play();
                 questionText.text = "Congratulations! You won the challenge...";
                 SubmitBttn.SetActive(false);
@@ -134,6 +140,7 @@ public class startQuiz : MonoBehaviour {
             }
             else
             {
+                QuizBGM.Stop();
                 gameOver.Play();
                 Lifes[HowManyLifes].SetActive(false); //Last life
                 questionText.text = "You lost! Try again...";

@@ -10,7 +10,6 @@ public class EnterName : MonoBehaviour {
 
     void add_Score(IResult result)
     {
-        //TODO: GRAB SCORE VALUE FROM AR WORLD SCENE
         Highscores.AddNewHighscore((string)result.ResultDictionary["first_name"], PlayerPrefs.GetInt("player_score"));
     }
 }
