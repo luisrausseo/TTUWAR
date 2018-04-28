@@ -197,9 +197,11 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Made quiz GUI.~~
 * ~~Made QuizManager system.~~
 * ~~Merged final AR scene with World scene and Leaderboard system.~~
-* ~~Fixed quiz GUI.~~
+* ~~Improved quiz GUI.~~
 * ~~Added life system to quizzes.~~
-* ~~Added sound to quiz GUI.~~
+* ~~Added sound and BGM to quiz GUI.~~
+* ~~Modified QuizManager system to allow multiple quizzes.~~
+* ~~Improved LEARN button script to allow multiple websites.~~
 
 ### Gantaphon: 
 
@@ -221,15 +223,16 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Added buttons to navigate between Map scene and highscores scene.~~
 * ~~Created score script to keep track of player score during the entire game.~~
 
-## Pending:
+## Pending/Proposals:
 
 * Fix animation of player while walking/GPS speed script.
 * Get unique username from Facebook API for the leaderboard.
 * Create more quizzes. 
-* Add BGM.
+* Add BGM to mapWorld.
 * Modify score system to subtract points, give bonus points, etc.
 * Add different AR activities.
-* Integrate more login options.
+* Integrate more login options (Google Play and/or email).
+* Implement multiplayer system. 
 
 ## References
 
