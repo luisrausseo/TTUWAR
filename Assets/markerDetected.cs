@@ -25,7 +25,15 @@ public class markerDetected : MonoBehaviour, ITrackableEventHandler
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             //target is found
-            Debug.Log("Detected");
+            Debug.Log("Detected: " + this.name);
+            if (this.name == "Pfluger")
+            {
+                startQuiz.QuizNum = 1;
+            }
+            if (this.name == "Headwaters")
+            {
+                startQuiz.QuizNum = 2;
+            }
             promptWindow.SetActive(true);
         }
         else

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
-using System.Collections;
 
 public class startQuiz : MonoBehaviour {
 
@@ -24,46 +23,80 @@ public class startQuiz : MonoBehaviour {
     private int question;
     private int HowManyQuestions = 2;
     private int HowManyLifes = 3;
-    private string[] correctAnswers_str = new string[] { "1", "2" };
+    private string[] correctAnswers_str;
     private Text[] TextOpt;
-    
+    public static int QuizNum;
 
     // Use this for initialization
     private void Start()
     {
         TextOpt = new Text[] { optA, optB, optC, optD };
         question = 0;
-        loadQuestion();
-        
     }
 
     private void loadQuestion()
     {
-        switch (question)
+        switch (QuizNum)
         {
-            case 0:
-                {
-                    questionText.text = "Which is the name of the water feature located in the center of the Memorial Circle?";
-                    optA.text = "A.	Preston Scott Fountain";
-                    optB.text = "B.	Pfluger Fountain";
-                    optC.text = "C.	Curry Holden Fountain";
-                    optD.text = "D.	James Marion West, Sr. Fountain";
-                    break;
-                }
             case 1:
                 {
-                    questionText.text = "In which year the Pfluger Fountain was added to the Memorial Circle?";
-                    optA.text = "A.	1948";
-                    optB.text = "B.	1997";
-                    optC.text = "C.	2002";
-                    optD.text = "D.	2014";
+                    correctAnswers_str = new string[] { "1", "2" };
+                    switch (question)
+                    {
+                        case 0:
+                            {
+                                questionText.text = "Which is the name of the water feature located in the center of the Memorial Circle?";
+                                optA.text = "A.	Preston Scott Fountain";
+                                optB.text = "B.	Pfluger Fountain";
+                                optC.text = "C.	Curry Holden Fountain";
+                                optD.text = "D.	James Marion West, Sr. Fountain";
+                                break;
+                            }
+                        case 1:
+                            {
+                                questionText.text = "In which year the Pfluger Fountain was added to the Memorial Circle?";
+                                optA.text = "A.	1948";
+                                optB.text = "B.	1997";
+                                optC.text = "C.	2002";
+                                optD.text = "D.	2014";
+                                break;
+                            }
+                    }
+                    break;
+                }
+            case 2:
+                {
+                    correctAnswers_str = new string[] { "1", "3" };
+                    switch (question)
+                    {
+                        case 0:
+                            {
+                                questionText.text = "What is the name of the water feature between English/Philosophy and the College of Education?";
+                                optA.text = "A.	Fountain of Knowledge";
+                                optB.text = "B.	Headwaters";
+                                optC.text = "C.	Education Journey";
+                                optD.text = "D.	Water Play";
+                                break;
+                            }
+                        case 1:
+                            {
+                                questionText.text = "What is supposed to mean the water pouring over the fountain at the Headwater?";
+                                optA.text = "A.	Thirst for knowledge";
+                                optB.text = "B.	Nurturing new ideas";
+                                optC.text = "C.	Life’s Journey";
+                                optD.text = "D.	Sounds that letters create";
+                                break;
+                            }
+                    }
                     break;
                 }
         }
+    
     }
     
     public void GoToQuiz()
     {
+        loadQuestion();
         QuizWindow.SetActive(true);
     }
 
