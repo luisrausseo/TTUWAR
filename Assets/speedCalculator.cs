@@ -1,7 +1,8 @@
-//using Mapbox.Unity.Utilities;
-//using Mapbox.Utils;
-//using UnityEngine;
-//using UnityEngine.UI;
+using Mapbox.Unity.Utilities;
+using Mapbox.Utils;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 //public class speedCalculator : MonoBehaviour
 //{
@@ -60,9 +61,14 @@ namespace Mapbox.Examples
 
         }
 
-
         void Update()
         {
+            StartCoroutine(CalcSpeed());
+        }
+
+        IEnumerator CalcSpeed()
+        {
+            yield return new WaitForSeconds(1);
             Location currLoc = _locationProvider.CurrentLocation;
             Vector2d posA = Conversions.LatLonToMeters(previousLoc.LatitudeLongitude.x, previousLoc.LatitudeLongitude.y);
             Vector2d posB = Conversions.LatLonToMeters(currLoc.LatitudeLongitude.x, currLoc.LatitudeLongitude.y);
