@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/LoadingScreen.unity
 Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
 Assets/ARWorld.unity
+Assets/CrystalGame.unity
 SceneListEnd?
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
@@ -147,7 +148,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-7d68c2be12afca1d067d11b3f60bcb33 Assembly-CSharp.dll:.SimpleCharacterControl
+490c8831eddc6b42470f40aa79d6ac7c Assembly-CSharp.dll:.SimpleCharacterControl
 1de2e2cbb104e97d6c51bb8790db321c Assembly-CSharp.dll:Mapbox.Examples.Voxels.VoxelFetcher
 78a2a366a0a3b585e1178d2dd9d006ab Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointProgressTracker
 3bb63cd893ef5220596dcce852aab115 Assembly-CSharp.dll:Mapbox.Examples.Playground.RasterTileExample
@@ -487,3 +488,9 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7ff7de90f564d2b2a1cdd89deb9d69a6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
+841b40b678f768213f0b52d1625563c8 Assembly-CSharp.dll:.activateLight
+29141600236c26b053b57f97a6f7366c Assembly-CSharp.dll:.activateWell
+6803f23400211e34d171a4cff2ec62c8 Assembly-CSharp.dll:.InfoTouches
+d3dd3eabeb9dbade76177e3051ab5fb5 Assembly-CSharp.dll:.SimpleTouchController
+ccbf38ef3d1015a1979e6848170d53ac Assembly-CSharp.dll:.PlayerMoveController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OrientationChange
