@@ -17,6 +17,7 @@ public class activateWell : MonoBehaviour {
             ScoreManager.AddScore(10);
             SpotLight.intensity = 1;
             var water = font_water.emission;
+            CrystalsTouched = 0;
             water.enabled = true;
             exitWindow.SetActive(true);
         }

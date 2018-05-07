@@ -275,6 +275,7 @@
     <Compile Include="Assets\CasualGameUI\Demo\MultiImageButton.cs" />
     <Compile Include="Assets\CasualGameUI\Demo\ShowNextOnClick.cs" />
     <Compile Include="Assets\CenterLocation.cs" />
+    <Compile Include="Assets\changeSunPosition.cs" />
     <Compile Include="Assets\DisplayHighscores.cs" />
     <Compile Include="Assets\EnterName.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
@@ -289,6 +290,7 @@
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+    <Compile Include="Assets\FactController.cs" />
     <Compile Include="Assets\FBscript.cs" />
     <Compile Include="Assets\GameStart.cs" />
     <Compile Include="Assets\goToInfo.cs" />
@@ -570,6 +572,10 @@
     <Compile Include="Assets\positionCalc.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
+    <Compile Include="Assets\SimpleAndroidNotifications\NotificationExample.cs" />
+    <Compile Include="Assets\SimpleAndroidNotifications\NotificationIcon.cs" />
+    <Compile Include="Assets\SimpleAndroidNotifications\NotificationManager.cs" />
+    <Compile Include="Assets\SimpleAndroidNotifications\NotificationParams.cs" />
     <Compile Include="Assets\SimpleTouchController\Scripts\InfoTouches.cs" />
     <Compile Include="Assets\SimpleTouchController\Scripts\PlayerMoveController.cs" />
     <Compile Include="Assets\SimpleTouchController\Scripts\SimpleTouchController.cs" />
