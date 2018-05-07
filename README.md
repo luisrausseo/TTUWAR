@@ -30,9 +30,15 @@ There are several water sources / features around campus in which the player can
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021637_TTUWAR.jpg" width="243" height="500" />
 
-As per now, these activities are just quizzes regarding the water feature. 
+As per now, these activities are just quizzes regarding the water feature or a minigame in which the player needs to memorize some facts and then answer a question in the end. 
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021718_TTUWAR.jpg" width="243" height="500" />
+
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180506-030214_TTUWAR.jpg" width="243" height="500" />
+
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180506-030239_TTUWAR.jpg"/>
+
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/GameGif.gif"/>
 
 > __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
 
