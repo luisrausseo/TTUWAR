@@ -208,6 +208,7 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Added sound and BGM to quiz GUI.~~
 * ~~Modified QuizManager system to allow multiple quizzes.~~
 * ~~Improved LEARN button script to allow multiple websites.~~
+* ~~Created Crystal's minigame scene.~~
 
 ### Gantaphon: 
 
@@ -219,6 +220,8 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Merged AR finished scene with Map scene.~~
 * ~~Added more models and target image.~~
 * ~~Replied to peer's feedback.~~
+* ~~Gathered information regarding POIs~~
+* ~~Added more markers to Vuforia SDK.~~
 
 ### Jijun:
 
@@ -228,15 +231,13 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Created a UI that prompts a nickname to submit score.~~
 * ~~Added buttons to navigate between Map scene and highscores scene.~~
 * ~~Created score script to keep track of player score during the entire game.~~
+* ~~Modified score system to subtract points, give bonus points, etc.~~
 
 ## Pending/Proposals:
 
 * Fix animation of player while walking/GPS speed script.
-* Get unique username from Facebook API for the leaderboard.
-* Create more quizzes. 
+* Get unique username from Facebook API for the leaderboard. 
 * Add BGM to mapWorld.
-* Modify score system to subtract points, give bonus points, etc.
-* Add different AR activities.
 * Integrate more login options (Google Play and/or email).
 * Implement multiplayer system. 
 
