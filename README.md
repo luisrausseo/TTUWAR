@@ -236,13 +236,22 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Added buttons to navigate between Map scene and highscores scene.~~
 * ~~Created score script to keep track of player score during the entire game.~~
 * ~~Modified score system to subtract points, give bonus points, etc.~~
+* ~~Researched how to implement multiplayer function~~
+* ~~Added more score modifiers~~
+* ~~Added timer function to quiz games~~
+* ~~Created multiplayer test lobby~~
+* ~~Made multiplayer demo for Crystal game.
+
+
+
 
 ## Pending/Proposals:
 
 * Fix animation of player while walking/GPS speed script.
 * Get unique username from Facebook API for the leaderboard. 
 * Integrate more login options (Google Play and/or email).
-* Implement multiplayer system. 
+* Expand multiplayer system so that it remains consistent between map and game changes. 
+* Integrate the multiplayer system to whole project
 
 ## References
 

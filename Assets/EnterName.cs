@@ -12,4 +12,9 @@ public class EnterName : MonoBehaviour {
     {
         Highscores.AddNewHighscore((string)result.ResultDictionary["first_name"], PlayerPrefs.GetInt("player_score"));
     }
+    
+    public void Update()
+    {
+        Highscores.AddNewHighscore((string)result.ResultDictionary["first_name"], PlayerPrefs.GetInt("player_score"));
+    }
 }
