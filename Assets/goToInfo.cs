@@ -67,6 +67,12 @@ public class goToInfo : MonoBehaviour {
                     Application.OpenURL("https://pipelt.com/condominium/building-drainage-system-how-it-works-and-repair-options/");
                     break;
                 }
+            case 21:
+                {
+                    //Crystal Fact's challenge
+                    Application.OpenURL("http://www.seametrics.com/blog/water-facts/");
+                    break;
+                }
         }
         
     }

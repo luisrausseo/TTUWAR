@@ -320,6 +320,34 @@ public class startQuiz : MonoBehaviour {
                     }
                     break;
                 }
+
+            //Crystal Fact's challenge
+            case 21:
+                {
+                    correctAnswers_str = new string[] { "2", "3" };
+                    switch (question)
+                    {
+                        case 0:
+                            {
+                                questionText.text = "Which percentage of fresh water on Earth is trapped in glaciers?";
+                                optA.text = "A.	35.5%";
+                                optB.text = "B.	59.5%";
+                                optC.text = "C.	68.7%";
+                                optD.text = "D.	73.4%";
+                                break;
+                            }
+                        case 1:
+                            {
+                                questionText.text = "The phenomena in which hot water freezes before cold water is called...";
+                                optA.text = "A.	Euler effect";
+                                optB.text = "B.	Freeze overflow";
+                                optC.text = "C.	Hot freeze";
+                                optD.text = "D. Mpemba effect";
+                                break;
+                            }
+                    }
+                    break;
+                }
         }
     
     }
@@ -351,6 +379,10 @@ public class startQuiz : MonoBehaviour {
                 QuizBGM.Stop();
                 WonGame.Play();
                 questionText.text = "Congratulations! You won the challenge...";
+                if (QuizNum == 21)
+                {
+                    activateWell.CanActivate = true;
+                }
                 SubmitBttn.SetActive(false);
                 Toggles.SetActive(false);
                 DoneBttn.SetActive(true);

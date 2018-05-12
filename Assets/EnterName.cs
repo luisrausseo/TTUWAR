@@ -15,6 +15,7 @@ public class EnterName : MonoBehaviour {
     
     public void Update()
     {
-        Highscores.AddNewHighscore((string)result.ResultDictionary["first_name"], PlayerPrefs.GetInt("player_score"));
+        //NEEDS TO BE FIXED
+        //Highscores.AddNewHighscore((string)result.ResultDictionary["first_name"], PlayerPrefs.GetInt("player_score"));
     }
 }
