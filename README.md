@@ -1,4 +1,4 @@
-# CS 4331 - Project #2
+# CS 4331 - Project #3
 
 ## TTUWAR: Texas Tech University's Water Augmented Reality
 
@@ -32,17 +32,25 @@ There are several water sources / features around campus in which the player can
 
 As per now, these activities are just quizzes regarding the water feature or a minigame in which the player needs to memorize some facts and then answer a question in the end. 
 
+#### Quizzes
+
+Every correct answer will grant the player 5 points. If the player make a mistake, will lose a life and when all lifes are depleted will lose the challenge.
+
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021718_TTUWAR.jpg" width="243" height="500" />
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180506-030214_TTUWAR.jpg" width="243" height="500" />
+
+#### Crystal Mini-game
+
+The player needs to touch the 4 crystals in the game-space which will show a fact about water. After all crystals are activated, the player can go to the center and activate the well's water by answering a quiz regarding the crystals' facts. If sucessful, the player will gain 10 points.
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180506-030239_TTUWAR.jpg"/>
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/GameGif.gif"/>
 
-> __Note__: In the future, these activities will be triggered by player's positioning respecting the water feature.
+#### Leaderboard
 
-Every correct answer will grant the player 5 points. If the player make a mistake, will lose a life and when all lifes are depleted will lose the challenge.
+In the world map, the player can access the leaderboard tapping the button on the top-right corner. If tap in the ADD button, the score will be sent to dreamlo database. If the player has a lower score than the one uploaded, it won't be uploaded.
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180412-021642_TTUWAR.jpg" width="243" height="500" />
 
