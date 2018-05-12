@@ -364,25 +364,27 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 
 ## Feedback
 
-> __Q__: Are the wells based on actual water resources around Lubbock, and if so which resources are they based on?
+### Project #2:
 
-__A__: All of them except one are based on actual water resources according to the data we have. There is one resources that we added near our class building for presentation purpose.
+__Q__: Are the wells based on actual water resources around Lubbock, and if so which resources are they based on?
 
-> __Q__: Were there any issues that occurred with the scanner? Or was it easy to implement
+> __A__: All of them except one are based on actual water resources according to the data we have. There is one resources that we added near our class building for presentation purpose.
 
-__A__: There are some problems with Vuforia camera you can look for the solution through our report.
+__Q__: Were there any issues that occurred with the scanner? Or was it easy to implement
 
-> __Q__: How expandable is this project? How easy is it to apply this to a different region or add new trivia? I like the appearance of this project.
+> __A__: There are some problems with Vuforia camera you can look for the solution through our report.
 
-__A__: It could be applied to many other field and there are rooms for more features.
+__Q__: How expandable is this project? How easy is it to apply this to a different region or add new trivia? I like the appearance of this project.
 
-> __Q__: Would the mouse disappear?
+> __A__: It could be applied to many other field and there are rooms for more features.
 
-__A__: Our application run on mobile devices (Android) no mouse will be shown on the mobile. The mouse you saw during the presentation is because we ran mobile screen duplication on Windows machine.
+__Q__: Would the mouse disappear?
 
-> __Q__: Interesting game, would look into other options besides Facebook
+> __A__: Our application run on mobile devices (Android) no mouse will be shown on the mobile. The mouse you saw during the presentation is because we ran mobile screen duplication on Windows machine.
 
-__A__: Other options can be added but we will focus on adding other features and UI improvement as our first priority.
+__Q__: Interesting game, would look into other options besides Facebook
+
+> __A__: Other options can be added but we will focus on adding other features and UI improvement as our first priority.
 
 
 ## Disclaimer
