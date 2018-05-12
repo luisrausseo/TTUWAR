@@ -381,7 +381,7 @@ public class startQuiz : MonoBehaviour {
                 questionText.text = "Congratulations! You won the challenge...";
                 if (QuizNum == 21)
                 {
-                    activateWell.CanActivate = true;
+                    activateWell.ActivateLight();
                 }
                 SubmitBttn.SetActive(false);
                 Toggles.SetActive(false);

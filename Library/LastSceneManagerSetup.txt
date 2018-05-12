@@ -3,11 +3,11 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Mapbox/Examples/0_PrefabScenes/LocationBasedGame.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
 - path: Assets/ARWorld.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/CrystalGame.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0

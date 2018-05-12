@@ -4,36 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-//public class speedCalculator : MonoBehaviour
-//{
-
-//    [SerializeField]
-//    Text _statusText;
-
-//    float lonA, latA;
-
-//    // Use this for initialization
-//    void Start()
-//    {
-//        lonA = Input.location.lastData.longitude;
-//        latA = Input.location.lastData.latitude;
-//    }
-
-//    // Update is called once per frame
-//    void Update()
-//    {
-//        Vector2d posA = Conversions.LatLonToMeters(latA, lonA);
-//        Vector2d posB = Conversions.LatLonToMeters(Input.location.lastData.latitude, Input.location.lastData.longitude);
-//        float dist = Mathf.Sqrt(Mathf.Pow((float)(posB.x - posA.x), 2) + Mathf.Pow((float)(posB.y - posA.y), 2))/1000;
-//        float time = Time.deltaTime;
-//        float speed = dist / time;
-//        _statusText.text = string.Format("{0}  Km/s", speed);
-
-//        lonA = Input.location.lastData.longitude;
-//        latA = Input.location.lastData.latitude;
-//    }
-//}
-
 namespace Mapbox.Examples
 {
     using Mapbox.Unity.Location;

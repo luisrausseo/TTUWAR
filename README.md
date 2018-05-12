@@ -46,6 +46,10 @@ The player needs to touch the 4 crystals in the game-space which will show a fac
 
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180506-030239_TTUWAR.jpg"/>
 
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180511-234941_TTUWAR.jpg"/>
+
+<img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/Screenshot_20180511-235047_TTUWAR.jpg"/>
+
 <img src="https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/GameGif.gif"/>
 
 #### Leaderboard
@@ -98,6 +102,55 @@ When activating the AR camera, it is just needed to run this line of code to act
 The following line of code, can be used to stop the camera:
 
 `VuforiaBehaviour.Instance.enabled = false;`
+
+To be able to perform different actions with different markers, the following script was attached to each imageTarget.
+
+```C#
+using UnityEngine;
+using Vuforia;
+
+public class markerDetected : MonoBehaviour, ITrackableEventHandler
+{
+    public GameObject promptWindow;
+
+    private TrackableBehaviour mTrackableBehaviour;
+
+    void Start()
+    {
+        mTrackableBehaviour = GetComponent<TrackableBehaviour>();
+        if (mTrackableBehaviour)
+        {
+            mTrackableBehaviour.RegisterTrackableEventHandler(this);
+        }
+    }
+
+    public void OnTrackableStateChanged(
+                                    TrackableBehaviour.Status previousStatus,
+                                    TrackableBehaviour.Status newStatus)
+    {
+        if (newStatus == TrackableBehaviour.Status.DETECTED ||
+            newStatus == TrackableBehaviour.Status.TRACKED ||
+            newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+        {
+            //target is found
+            Debug.Log("Detected: " + this.name);
+            if (this.name == "Pfluger")
+            {
+                startQuiz.QuizNum = 1;
+            }
+            if (this.name == "Headwaters")
+            {
+                startQuiz.QuizNum = 2;
+            }
+            promptWindow.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Lost");
+        }
+    }
+}
+```
 
 ### Facebook SDK for Unity
 
@@ -153,6 +206,47 @@ namespace Mapbox.Examples
 ```
 
 ![Unity Script Screenshot](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/POIs_Editor.PNG) 
+
+### Sun Position Changer
+
+There is a directional light on top of the world map which changes position depending of the time of the day.
+
+```C#
+using UnityEngine;
+using UnityEngine.UI;
+
+public class changeSunPosition : MonoBehaviour {
+
+    public Light Sun;
+    public bool Debug;
+    private float time;
+    public GameObject DebugTime;
+    public Text DebugClock;
+
+    private void Start()
+    {
+        time = System.DateTime.Now.Hour;
+    }
+
+    private void Update () {
+        var hour = 0f;
+        if (Debug == false)
+        {
+            hour = System.DateTime.Now.Hour;
+        }
+        else
+        {
+            DebugTime.SetActive(true);   
+            hour = time;
+            DebugClock.text = (int) (hour % 24) + ":00";
+            time = time + 0.03f;
+        }
+        Sun.transform.localRotation = Quaternion.Euler(15 * hour - 90, 90, 0);
+    }
+}
+```
+
+![Sun Position Changer](https://github.com/luisrausseo/TTUWAR/blob/master/ReadmeResources/SunGif.gif) 
 
 ### Building the Project
 
@@ -221,6 +315,7 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Improved LEARN button script to allow multiple websites.~~
 * ~~Created Crystal's minigame scene.~~
 * ~~Added BGM to mapWorld.~~
+* ~~Added quiz system to Crystal's minigame.~~
 
 ### Gantaphon: 
 
@@ -256,7 +351,7 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * Get unique username from Facebook API for the leaderboard. 
 * Integrate more login options (Google Play and/or email).
 * Expand multiplayer system so that it remains consistent between map and game changes. 
-* Integrate the multiplayer system to whole project
+* Integrate the multiplayer system to whole project.
 
 ## References
 

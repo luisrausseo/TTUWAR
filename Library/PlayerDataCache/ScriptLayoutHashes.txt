@@ -261,7 +261,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 142b07798848d35fb1776ce00de69b4c Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.FlatSphereTerrainFactory
 6ee551567faf2d4fea9ba37f00f7279f Assembly-CSharp.dll:Mapbox.Unity.Utilities.DontDestroyOnLoad
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Facebook.Unity.Example.LogView
-74681caf9e76e72820e579896d85507a Assembly-CSharp.dll:.changeSunPosition
+e307e848003e8f693a9d2287e2740b18 Assembly-CSharp.dll:.changeSunPosition
 ef0f40d10aa1f79ce495559bb858f96d Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Data.AtlasInfo
 8cedb8200c104460fe70068971236e4b Assembly-CSharp.dll:Mapbox.Unity.Utilities.MapVisualizerPerformance
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
