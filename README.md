@@ -344,6 +344,8 @@ For developing on PC, DroidCam is used to retrive wireless camera input from And
 * ~~Added timer function to quiz games~~
 * ~~Created multiplayer test lobby~~
 * ~~Made multiplayer demo for Crystal game.~~
+* Multiplayer test scene (can implement into Crystal game, but the other parts are difficult to make into multiplayer.
+* Link to Video [Here](https://youtu.be/qQhVm4dcqu0)
 
 ## Pending/Proposals:
 
